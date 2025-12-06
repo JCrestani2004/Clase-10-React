@@ -10,7 +10,7 @@ const HomeBanner = () => {
             <div className="bg-primary rounded position-relative">
               <a href="#">
                 <img
-                  src="img/product-banner.jpg"
+                  src="/img/product-banner.jpg"
                   className="img-fluid w-100 rounded"
                   alt
                 />
@@ -39,7 +39,7 @@ const HomeBanner = () => {
             <div className="text-center bg-primary rounded position-relative">
               <a href="#">
                 <img
-                  src="img/product-banner-2.jpg"
+                  src="/img/product-banner-2.jpg"
                   className="img-fluid w-100"
                   alt
                 />

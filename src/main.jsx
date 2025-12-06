@@ -5,9 +5,12 @@ import "animate.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import './index.css'
 import App from './App.jsx'
+import { CarritoProvider } from './context/CarritoContext.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
+  <CarritoProvider>
+    <StrictMode>
+      <App />
+    </StrictMode>,
+  </CarritoProvider>
 )

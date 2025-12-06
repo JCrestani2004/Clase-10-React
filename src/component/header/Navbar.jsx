@@ -84,7 +84,7 @@ const Navbar = () => {
                 <Link to={"/home"} className="nav-item nav-link active">
                   Home
                 </Link>
-                <Link to={"/shop"} className="nav-item nav-link">
+                <Link to={"/shop/smartphones/Smartphones"} className="nav-item nav-link">
                   Shop
                 </Link>
                 <Link to={"/single"} className="nav-item nav-link">
